@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lab_5.2</string>
+    <string name="app_author">Vladyslav Kavetskyy</string>
+
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+
+    <string name="axes">X:\nY:\nZ:</string>
+
+    <string name="moreAccurateValues">More accurate values</string>
+
+    <string name="text_Accelerometer">Accelerometer</string>
+    <string name="text_Barometer">Barometer</string>
+    <string name="text_Fingerprint_Sensor">Fingerprint Sensor</string>
+    <string name="text_Geomagnetic_Sensor">Geomagnetic Sensor</string>
+    <string name="text_Gyroscope">Gyroscope</string>
+    <string name="text_Light_Sensor">Light Sensor</string>
+    <string name="text_Proximity_Sensor">Proximity Sensor</string>
+
+    <string name="text_Level">Level</string>
+    <string name="text_Compass">Compass</string>
+</resources>
