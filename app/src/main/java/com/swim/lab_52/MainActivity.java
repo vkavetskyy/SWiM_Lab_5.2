@@ -118,13 +118,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.button_HR_Sensor).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startSensorsActivity(v);
-            }
-        });
-
         findViewById(R.id.button_Light_Sensor).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -154,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
         else if (v.getId() == R.id.button_Fingerprint_Sensor) intent = new Intent(this, Fingerprint_sensor.class);
         else if (v.getId() == R.id.button_Geomagnetic_Sensor) intent = new Intent(this, Sensors.class).putExtra("sensorType", Sensor.TYPE_MAGNETIC_FIELD);
         else if (v.getId() == R.id.button_Gyroscope) intent = new Intent(this, Sensors.class).putExtra("sensorType", Sensor.TYPE_GYROSCOPE);
-        else if (v.getId() == R.id.button_HR_Sensor) intent = new Intent(this, Sensors.class).putExtra("sensorType", Sensor.TYPE_HEART_RATE);
         else if (v.getId() == R.id.button_Light_Sensor) intent = new Intent(this, Sensors.class).putExtra("sensorType", Sensor.TYPE_LIGHT);
         else if (v.getId() == R.id.button_Proximity_Sensor) intent = new Intent(this, Sensors.class).putExtra("sensorType", Sensor.TYPE_PROXIMITY);
         else if (v.getId() == R.id.button_Compass) intent = new Intent(this, Sensors.class).putExtra("sensorType", Sensor.TYPE_ORIENTATION);
